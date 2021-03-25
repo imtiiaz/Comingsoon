@@ -1,0 +1,1177 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Responsive  Landing Page Template  
+    Template URI:
+    Description: This is html5 template
+    Author: 
+    Author URI: 
+    Version: 2
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Template default css
+    2. Header Section
+    3. Slider Section
+    4. Service Section 
+    5. About Section
+    6. Career Section
+    7. Testimonials Section
+    8. Subscribe Section 
+    9. Pricing Section
+    10. Counter Section
+    11. Footer Section
+    12. Scrollup
+    13. Blog details
+    
+    
+-----------------------------------------------------------------------------------*/
+
+
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: ;
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Merriweather", Sans-serif;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+h1 {
+    font-size: ;
+    font-weight: ;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: ;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: ;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: ;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.slick-active:focus {
+    outline: 0;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+/* 2.-------------------------------------------
+                    Header Section
+-----------------------------------------------*/
+
+header {}
+
+/*------Header Top-----*/
+
+.header_top {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.logo img {
+    max-width: 180px;
+}
+
+.search {
+    position: relative;
+    text-align: right;
+}
+
+.search .form-control {
+    width: 80%;
+    height: 60px;
+    font-size: 25px;
+    color: rgba(225, 76, 25, 0.46);
+    padding: 0 30px;
+    border-radius: 20px;
+    border: 1px solid #E14C19;
+    margin-left: auto;
+}
+
+.search .form-control::placeholder {
+    color: rgba(225, 76, 25, 0.46);
+    opacity: 1;
+}
+
+.search .form-control:-ms-input-placeholder {
+    color: rgba(225, 76, 25, 0.46);
+}
+
+.search .form-control::-ms-input-placeholder {
+    color: rgba(225, 76, 25, 0.46);
+}
+
+.search .icon {
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    line-height: 60px;
+    background: #E14C19;
+    border-radius: 50px;
+    right: -20px;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.search img {
+    width: 40px;
+    height: 40px;
+}
+
+.header_btn {
+    text-align: right;
+}
+
+.header_btn .btn {
+    font-size: 17px;
+    color: #000;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 15px 35px 17px 35px;
+}
+
+.header_btn .btn:nth-child(2) {
+    background: #1A32DF;
+    color: #fff;
+}
+
+.header_btn .btn:focus,
+.btn:hover {
+    background: #1A32DF;
+    color: #fff;
+}
+
+.header_btn .menu_btn {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header_btn .menu_btn img {
+    max-width: 57px;
+}
+
+@media screen and (min-width:992px) and (max-width:1275px) {
+    .logo img {
+        max-width: 150px;
+    }
+
+    .search .form-control {
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .search .icon {
+        height: 50px;
+        width: 60px;
+        line-height: 50px;
+    }
+
+    .search img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_btn .btn {
+        padding: 10px 30px 12px 30px;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .header_btn .menu_btn img {
+        max-width: 45px;
+    }
+}
+
+/*------Header Bottom-----*/
+
+.header_bottom {
+    padding: 30px 0 15px;
+    border-top: 1px solid #707070;
+}
+
+.all_dropdown {
+    text-align: center;
+}
+
+.all_dropdown > ul > li {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+
+.all_dropdown > ul > li > a {
+    padding-right: 40px;
+    ;
+    padding-bottom: 15px;
+    color: #707070;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.all_dropdown > ul > li > a:after {
+    content: '\f0d7';
+    position: absolute;
+    font-family: 'Font Awesome 5 free';
+    right: 20px;
+    top: 0;
+    font-weight: 900;
+    font-size: 18px;
+    color: #707070;
+    pointer-events: none;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+
+}
+
+.all_dropdown ul li a:hover {
+    color: #E14C19;
+}
+
+.all_dropdown ul li a:hover:after {
+    color: #E14C19;
+}
+
+.all_dropdown ul.submenu {
+    position: absolute;
+    width: 100%;
+    top: 120%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px 0 10px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+    z-index: 99;
+    border-top: 3px solid #E14C19;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.all_dropdown > ul > li:hover ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.all_dropdown ul.submenu li {
+    text-align: left;
+    margin: 0;
+    display: block;
+}
+
+.all_dropdown ul.submenu li a {
+    font-size: 14px;
+    color: #707070;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.all_dropdown ul.submenu li a:hover {
+    color: #E14C19;
+}
+
+@media screen and (min-width:992px) and (max-width:1370px) {
+    /*
+    .all_dropdown ul li a{
+        padding-right: 30px;
+    }
+*/
+}
+
+/* 3.-------------------------------------------
+                    Banner Section
+-----------------------------------------------*/
+#banner_section {
+    background: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+
+/* 4.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 5.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 6.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 7.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 8.-------------------------------------------
+                    Comingsoon Section
+-----------------------------------------------*/
+
+@media (min-width: 992px) {
+    #comingsoon .container {
+        max-width: 900px;
+    }
+}
+
+.slick-slide {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.comingsoon_content {
+    padding: 0 0 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.comingsoon_img {
+    position: relative;
+}
+
+.slider_item > img {
+    border-radius: 5px;
+}
+
+.man {
+    z-index: 999999;
+}
+
+.man img {
+    position: absolute;
+    max-width: 380px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+}
+
+.man_2 img {
+    max-width: 200px !important;
+}
+
+.man_3 img {
+    max-width: 250px !important;
+
+}
+
+.slider_item_content {
+    position: relative;
+}
+
+.comingsoon_img .rocket {
+    z-index: 1;
+}
+
+.comingsoon_img .rocket img {
+    position: absolute;
+    left: -20px;
+    top: -30px;
+}
+
+.comingsoon_img img.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+    max-width: 150px;
+}
+
+.comingsoon_text p {
+    font-size: 20px;
+    padding: 10px 0 20px;
+}
+
+.comingsoon_text a {
+    font-size: 18px;
+    color: #304B9B;
+    font-weight: 300;
+    padding-left: 30px;
+    position: relative;
+    padding: 8px 20px 8px 50px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.comingsoon_text a:hover {
+    background: #304B9B;
+    color: #fff;
+}
+
+.comingsoon_text a:hover .finger1 {
+    display: none;
+}
+
+.comingsoon_text a:hover .finger2 {
+    display: block;
+}
+
+.comingsoon_text a img {
+    position: absolute;
+    width: 22px;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+
+.comingsoon_img ul {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    display: flex;
+}
+
+.comingsoon_img ul li button {
+    height: 16px;
+    width: 16px;
+    font-size: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-color: #fff;
+    background: #fff;
+    cursor: pointer;
+}
+
+.comingsoon_img ul li.slick-active button:focus {
+    outline: 0;
+}
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .comingsoon_img .rocket img {
+        max-width: 460px;
+        left: 20px;
+        top: -20px;
+    }
+
+    .comingsoon_img .slick-slide {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .comingsoon_text p {
+        font-size: 16px;
+    }
+
+    .comingsoon_text a {
+        font-size: 15px;
+    }
+
+    .comingsoon_img .rocket img {
+        left: -20px;
+    }
+
+    .man img {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .comingsoon_img ul {
+        top: 25px;
+        left: 40px;
+    }
+
+    .comingsoon_img ul li button {
+        height: 13px;
+        width: 13px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .comingsoon_img .rocket img {
+        max-width: 420px;
+        top: -25px;
+    }
+
+    .man img {
+        max-width: 270px;
+    }
+
+
+    .man_2 img,
+    .man_3 img {
+        max-width: 200px !important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .comingsoon_img .rocket img {
+        max-width: 424px;
+        left: -10px;
+        top: -27px;
+    }
+
+    .man img {
+        max-width: 270px;
+    }
+
+    .man_2 img,
+    .man_3 img {
+        max-width: 160px !important;
+    }
+
+    .comingsoon_text p {
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .comingsoon_text a {
+        font-size: 12px;
+    }
+
+    .comingsoon_text a img {
+        width: 20px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:575px) {
+
+    .comingsoon_img .slick-slide {
+        margin-bottom: 15px;
+    }
+
+    .comingsoon_img img.logo {
+        max-width: 70px;
+        top: 65px;
+    }
+
+    .man img {
+        max-width: 150px !important;
+    }
+
+    .man_2 img {
+        max-width: 100px !important;
+    }
+
+    .man_3 img {
+        max-width: 100px !important;
+    }
+
+    .comingsoon_img .rocket img {
+        max-width: 290px;
+        left: -10px;
+        top: -20px;
+    }
+
+    .comingsoon_text {
+        padding: 0 20px;
+    }
+
+    .comingsoon_text p {
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .comingsoon_text a {
+        padding: 5px 8px 5px 25px;
+    }
+
+    .comingsoon_text a img {
+        width: 15px;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .comingsoon_img .rocket img {
+        max-width: 250px;
+        left: -11px;
+        top: -13px;
+    }
+
+    .comingsoon_text a {
+        font-size: 10px;
+    }
+
+    .comingsoon_text p {
+        padding-bottom: 10px;
+    }
+}
+
+/* 9.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+.comingsoon_form_page .rocket img,
+.comingsoon_thankyou_page .rocket img {
+    top: 0;
+    left: 5px;
+}
+
+.comingsoon_form_page .man img {
+    z-index: 0;
+}
+
+.comingsoon_form {
+    text-align: center;
+    background: rgba(213, 213, 213, 0.8);
+    padding-top: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+}
+
+.comingsoon_form h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.comingsoon_form h3 {
+    font-weight: 400;
+    background: #1A32DF;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+
+.comingsoon_form .form-control {
+    margin-bottom: 25px;
+    height: 70px;
+    padding-left: 30px;
+    border: 1px solid #E14C19;
+    border-radius: 15px;
+    color: #E14C19;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.comingsoon_form .form-control::placeholder {
+    color: rgba(225, 76, 25, 0.46);
+    opacity: 1;
+}
+
+.comingsoon_form .form-control:-ms-input-placeholder {
+    color: rgba(225, 76, 25, 0.46);
+}
+
+.comingsoon_form .form-control::-ms-input-placeholder {
+    color: rgba(225, 76, 25, 0.46);
+}
+
+.comingsoon_form button {
+    color: #fff;
+    border-radius: 15px;
+    margin: 0 5px;
+    padding: 15px 40px;
+    background: #1A32DF;
+    border: 1px solid #1A32DF;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.comingsoon_form button:hover {
+    background: #fff;
+    color: #1A32DF;
+}
+
+.comingsoon_form button:focus {
+    outline: 0;
+}
+
+@media screen and (max-width:1400px) {
+    .comingsoon_form h2 {
+        font-size: 38px;
+    }
+
+    .comingsoon_form h3 {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 15px 20px;
+    }
+
+    .comingsoon_form .form-control {
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .comingsoon_form button {
+        color: #fff;
+        border-radius: 15px;
+        margin: 0 5px;
+        padding: 10px 39px 10px 34px;
+        background: #1A32DF;
+        border: 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .comingsoon_content {
+        padding-top: 0;
+    }
+
+    .comingsoon_form h2 {
+        font-size: 28px;
+    }
+
+    .comingsoon_form h3 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 16px;
+        padding: 15px 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .comingsoon_form .form-control {
+        width: 80%;
+        display: inline-block;
+        height: 50px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comingsoon_form h2 {
+        font-size: 20px;
+    }
+
+    .comingsoon_form h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .comingsoon_form .form-control {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .comingsoon_form button {
+        font-size: 14px;
+        padding: 5px 39px 8px 34px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .comingsoon_form {
+        padding-top: 15px;
+    }
+
+    .comingsoon_form h2 {
+        font-size: 17px;
+    }
+
+    .comingsoon_form h3 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    .comingsoon_form .form-control {
+        height: 40px;
+        margin-bottom: 12px
+    }
+}
+
+/* 10.-------------------------------------------
+                    Comingsoon Thankyou Section
+-----------------------------------------------*/
+.comingsoon_thankyou_page .man img {
+    z-index: 0;
+}
+
+.comingsoon_thankyou_page .slider_item > img {
+    height: 370px;
+    object-fit: cover;
+}
+
+.comingsoon_thankyou {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.thankyou_left {
+    background: rgba(48, 75, 155, 0.75);
+    text-align: center;
+    padding: 65px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 38px rgb(0 0 0 / 9%);
+}
+
+.thankyou_right {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding-left: 30px;
+    position: relative;
+    box-shadow: 0px 6px 38px rgb(0 0 0 / 9%);
+    height: 100%;
+}
+
+.thankyou_right h2 {
+    color: #D83510;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    padding-right: 10px;
+}
+
+.thankyou_right .logo img {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.thankyou_right .shape img {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+
+@media screen and (max-width:1700px) {
+
+    .comingsoon_form_page .slider_item > img,
+    .comingsoon_thankyou_page .slider_item > img {
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .comingsoon_form_page .comingsoon_text p,
+    .comingsoon_thankyou_page .comingsoon_text p {
+        font-size: 16px;
+        padding: 10px 0 10px;
+    }
+
+    .comingsoon_form_page .comingsoon_text a,
+    .comingsoon_thankyou_page .comingsoon_text a {
+        font-size: 14px;
+    }
+
+    .thankyou_left {
+        padding: 50px 20px !important;
+    }
+
+    .thankyou_right .logo img {
+        max-width: 170px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1199px) {}
+
+@media screen and (max-width: 1199px) {
+    .thankyou_right h2 {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .thankyou_left {
+        padding: 17px 20px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .thankyou_left {
+        padding: 40px 20px !important;
+    }
+
+    .thankyou_right h2 {
+        right: 20px;
+        padding-right: 0;
+        font-size: 26px;
+    }
+
+    .thankyou_right .shape img {
+        position: absolute;
+        right: 60px;
+        top: 146px;
+    }
+
+    .thankyou_right .logo img {
+        max-width: 150px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    .comingsoon_form_page .slider_item > img,
+    .comingsoon_thankyou_page .slider_item > img {
+        height: 225px;
+        object-fit: cover;
+    }
+
+    .thankyou_left {
+        padding: 60px 20px;
+    }
+
+    .comingsoon_form_page.comingsoon_text p,
+    .comingsoon_thankyou_page .comingsoon_text p {
+        font-size: 14px;
+    }
+
+    .comingsoon_form_page.comingsoon_text a,
+    .comingsoon_thankyou_page .comingsoon_text a {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .comingsoon_form_page .slider_item > img,
+    .comingsoon_thankyou_page .slider_item > img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .comingsoon_thankyou_page .comingsoon_img .rocket img {
+        left: 0;
+    }
+
+    .thankyou_left {
+        padding: 70px 15px !important;
+    }
+
+    .thankyou_right .logo img {
+        max-width: 100px;
+    }
+
+    .thankyou_right {
+        padding-left: 15px !important;
+    }
+
+    .thankyou_right .shape img {
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        max-width: 300px;
+    }
+
+    .thankyou_right h2 {
+        right: 0;
+        left: 5px;
+        padding-right: 5px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .comingsoon_thankyou_page .comingsoon_text a {
+        font-size: 12px;
+        padding: 5px 8px 3px 25px;
+    }
+
+    .comingsoon_thankyou_page .comingsoon_text a img {
+        width: 13px;
+        top: 10px;
+        left: 8px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+  
+}
+
+
+/* 11.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 12.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 13.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 14.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 15.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 15.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 17.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
+
+/* 18.-------------------------------------------
+                    Comingsoon form Section
+-----------------------------------------------*/
