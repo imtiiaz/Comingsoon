@@ -457,7 +457,7 @@ header {}
     }
 }
 
-.slick-slide {
+#comingsoon .slick-slide {
     margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 30px;
@@ -975,6 +975,8 @@ header {}
 }
 
 .thankyou_right h2 {
+    font-size: 40px;
+    font-weight: 500;
     color: #D83510;
     position: absolute;
     top: 50%;
